@@ -2,7 +2,8 @@
 class power_of_two;
   rand bit [15:0] bit_pattern[];
   
-  constraint size_arr_C { bit_pattern.size inside {[10:16]}; }  	     constraint pattern_C { 
+  constraint size_arr_C { bit_pattern.size inside {[10:16]}; }  	     
+  constraint pattern_C { 
     foreach(bit_pattern[i]) {      
       bit_pattern[i]==2**i;     
     }  }
