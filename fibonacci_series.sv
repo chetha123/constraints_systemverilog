@@ -3,7 +3,7 @@
 class fib;
   rand int  fib_arr[]; 
   
-  constraint size_arr_C { fib_arr.size inside {[20:30]}; } 
+  constraint size_arr_C { fib_arr.size inside {[20:30]}; }
   constraint pattern_C { foreach(fib_arr[i]) { 
       if(i==0)        
           fib_arr[i]==0;
