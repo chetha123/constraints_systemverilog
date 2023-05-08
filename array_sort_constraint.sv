@@ -5,7 +5,7 @@ rand  int arr[20];
                         if(i<19)
                           arr[i+1]>arr[i]; 
                        foreach(arr[i])
-                         a[i] inside {[1;100]}; } 
+                         a[i] inside {[1:100]}; } 
   function void post_randomize();
     
     $write("%0p ",arr);
